@@ -11,10 +11,8 @@ void calculatePower(int base, int exp)
 int main()
 {
     int base,exp;
-    printf("Enter the base=");
-    scanf("%d", &base);
-    printf("Enter exponont=");
-    scanf("%d", &exp);
+    printf("Enter the base and exponent=");
+    scanf("%d %d", &base,&exp);
     calculatePower(base, exp);
     return 0;
 }
